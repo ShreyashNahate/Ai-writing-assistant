@@ -1,0 +1,36 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+
+spring:
+  application:
+    name: ai-writing-backend
+  cache:
+    type: simple
+
+# Groq API
+groq:
+  api: : ${GROQ_API_KEY}
+    base-url: https://api.groq.com/openai/v1
+    key:
+    model-fast: llama-3.1-8b-instant
+    model-smart: llama-3.3-70b-versatile
+    max-tokens: 300
+    timeout-seconds: 10
+
+# Firebase
+firebase:
+  credentials-path: src/main/resources/firebase-service-account.json
+  project-id: timetable-446ca
+
+# Rate limiting (requests per minute per user)
+rate-limit:
+  free-rpm: 20
+  pro-rpm: 120
+
+# Actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
