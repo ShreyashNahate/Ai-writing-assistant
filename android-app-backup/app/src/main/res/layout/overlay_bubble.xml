@@ -7,17 +7,17 @@
     android:gravity="end">
 
     <!-- Draggable bubble -->
-    <ImageView
-        android:id="@+id/floatingBubble"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/ic_launcher_foreground"
-        android:background="@drawable/bubble_bg"
-        android:padding="12dp"
-        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/iv_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        app:backgroundTint="#6C63FF"
+        app:tint="@android:color/white"
+        android:layout_gravity="end"/>
 
     <!-- Action panel -->
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/action_panel"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
@@ -25,8 +25,6 @@
         android:layout_gravity="end"
         app:cardCornerRadius="16dp"
         app:cardElevation="12dp"
-        app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="#FFFFFF"
         android:visibility="gone">
 
         <LinearLayout
@@ -101,5 +99,5 @@
                 android:visibility="gone"/>
 
         </LinearLayout>
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 </LinearLayout>

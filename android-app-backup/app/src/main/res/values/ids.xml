@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_google_sign_in" type="id" />
+    <item name="tv_suggestion_3" type="id" />
+    <item name="loading_indicator" type="id" />
+    <item name="btn_tone_professional" type="id" />
+    <item name="btn_tone_friendly" type="id" />
+    <item name="btn_tone_short" type="id" />
+    <item name="action_panel" type="id" />
+    <item name="iv_bubble" type="id" />
+    <item name="btn_improve" type="id" />
+    <item name="btn_shorten" type="id" />
+    <item name="btn_formal" type="id" />
+    <item name="btn_grammar" type="id" />
+    <item name="tv_result" type="id" />
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Writing Assistant</string>
+    <string name="ime_name">AI Keyboard</string>
+    <string name="accessibility_service_name">AI Writing Context Reader</string>
+
+    <!-- Login -->
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="welcome_title">AI Writing Assistant</string>
+    <string name="welcome_subtitle">Write smarter in every app</string>
+
+    <!-- Main -->
+    <string name="hint_input">Type or paste text here…</string>
+    <string name="btn_rewrite">Rewrite ✨</string>
+    <string name="btn_copy">Copy</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="btn_toggle_overlay">Enable Floating Bubble</string>
+    <string name="btn_history">History</string>
+    <string name="label_tone">Tone</string>
+    <string name="label_action">Action</string>
+    <string name="label_result">Result</string>
+    <string name="tap_to_copy">Long press result to copy</string>
+
+    <!-- Setup banners -->
+    <string name="banner_keyboard">⌨️ Enable AI Keyboard → tap to set up</string>
+    <string name="banner_overlay">💬 Enable Floating Bubble → tap to grant permission</string>
+    <string name="banner_accessibility">👁 Enable Screen Reader → tap to grant permission</string>
+
+    <!-- History -->
+    <string name="history_empty">No rewrites yet. Start typing!</string>
+    <string name="original_label">Original</string>
+    <string name="rewritten_label">Rewritten</string>
+
+    <!-- Keyboard suggestion bar -->
+    <string name="loading_suggestion">Thinking…</string>
+
+    <!-- Overlay -->
+    <string name="overlay_improve">Improve</string>
+    <string name="overlay_shorten">Shorten</string>
+    <string name="overlay_formal">Formal</string>
+    <string name="overlay_grammar">Grammar</string>
+
+    <!-- Errors -->
+    <string name="error_no_text">Please enter some text</string>
+    <string name="error_network">Network error. Check connection.</string>
+    <string name="error_limit">Daily limit reached. Upgrade to Pro!</string>
+
+    <!-- Google Sign-In web client ID — replace with yours from google-services.json -->
+    <string name="default_web_client_id">848228318831-7f88hua3indjk2ejrl46hs2jsdb0kcig.apps.googleusercontent.com</string>
+</resources>

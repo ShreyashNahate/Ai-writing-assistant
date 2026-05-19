@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="primary">#6C63FF</color>
+    <color name="primary_dark">#4B44CC</color>
+    <color name="primary_light">#EAE8FF</color>
+    <color name="accent">#FF6584</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F8F7FF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F3F2FF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B6B8A</color>
+    <color name="text_hint">#ADADC9</color>
+
+    <!-- Status -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+
+    <!-- Banner -->
+    <color name="banner_keyboard_bg">#FFF3E0</color>
+    <color name="banner_overlay_bg">#E8F5E9</color>
+    <color name="banner_accessibility_bg">#E3F2FD</color>
+    <color name="banner_keyboard_text">#E65100</color>
+    <color name="banner_overlay_text">#1B5E20</color>
+    <color name="banner_accessibility_text">#0D47A1</color>
+
+    <!-- Overlay bubble -->
+    <color name="bubble_bg">#6C63FF</color>
+    <color name="bubble_panel_bg">#FFFFFF</color>
+
+    <!-- Keyboard bar -->
+    <color name="keyboard_bar_bg">#FFFFFF</color>
+    <color name="suggestion_bg">#F3F2FF</color>
+    <color name="suggestion_text">#1A1A2E</color>
+
+    <!-- System -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#E8E8F0</color>
+</resources>

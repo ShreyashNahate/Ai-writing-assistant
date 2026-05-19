@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:elevation="8dp">
+
+    <!-- ── Top bar: Fix It button + loading ── -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="38dp"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:background="#F3F2FF" android:paddingStart="10dp" android:paddingEnd="10dp">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="✨ AI" android:textSize="12sp" android:textStyle="bold"
+            android:textColor="#6C63FF" android:layout_marginEnd="8dp"/>
+
+        <ProgressBar android:id="@+id/loading_indicator"
+            android:layout_width="16dp" android:layout_height="16dp"
+            android:indeterminateTint="#6C63FF" android:visibility="gone"
+            android:layout_marginEnd="8dp"/>
+
+        <TextView android:id="@+id/tv_status"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:textSize="11sp" android:textColor="#6B6B8A"
+            android:visibility="gone"/>
+
+        <!-- Fix It button — manual trigger -->
+        <TextView android:id="@+id/btn_fix_it"
+            android:layout_width="wrap_content" android:layout_height="28dp"
+            android:text="Fix It ✨" android:textSize="12sp" android:textColor="#FFFFFF"
+            android:background="#6C63FF" android:paddingStart="14dp" android:paddingEnd="14dp"
+            android:gravity="center" android:clickable="true" android:focusable="true"/>
+    </LinearLayout>
+
+    <!-- ── Action row ── -->
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="40dp"
+        android:scrollbars="none" android:background="#FAFAFA">
+        <LinearLayout android:id="@+id/ll_actions"
+            android:layout_width="wrap_content" android:layout_height="match_parent"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:paddingStart="8dp" android:paddingEnd="8dp"/>
+    </HorizontalScrollView>
+
+    <!-- ── Tone row ── -->
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="40dp"
+        android:scrollbars="none" android:background="#FFFFFF">
+        <LinearLayout android:id="@+id/ll_tones"
+            android:layout_width="wrap_content" android:layout_height="match_parent"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:paddingStart="8dp" android:paddingEnd="8dp"/>
+    </HorizontalScrollView>
+
+    <!-- ── AI Results row ── -->
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:scrollbars="none" android:visibility="gone"
+        android:background="#F8F7FF" android:id="@+id/scroll_results">
+        <LinearLayout android:id="@+id/ll_results"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:padding="8dp" android:visibility="gone"/>
+    </HorizontalScrollView>
+
+</LinearLayout>
