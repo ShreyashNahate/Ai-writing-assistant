@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 @Slf4j
-@Service
+// @Service
 @RequiredArgsConstructor
 public class FirebaseUserService {
 
