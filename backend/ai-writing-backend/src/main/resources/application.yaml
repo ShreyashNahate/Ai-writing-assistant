@@ -12,7 +12,7 @@ spring:
 groq:
   api:
     base-url: https://api.groq.com/openai/v1
-    key: ${GROQ_API_KEY:your-groq-api-key}
+    key: ${GROQ_API_KEY}
     model-fast: llama-3.1-8b-instant
     model-smart: llama-3.3-70b-versatile
     max-tokens: 300
