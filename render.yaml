@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ai-writing-backend
+    env: java
+    rootDir: backend/ai-writing-backend
+    buildCommand: ./gradlew build
+    startCommand: java -jar build/libs/*.jar
+    envVars:
+      - key: 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
+        sync: false
