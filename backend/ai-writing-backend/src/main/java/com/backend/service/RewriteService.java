@@ -15,7 +15,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Slf4j
-@Service
+// @Service
 @RequiredArgsConstructor
 public class RewriteService {
 
