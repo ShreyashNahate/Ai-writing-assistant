@@ -19,7 +19,7 @@ import java.io.IOException;
 import java.util.List;
 
 @Slf4j
-@Component
+// @Component
 @RequiredArgsConstructor
 public class FirebaseTokenFilter extends OncePerRequestFilter {
 
