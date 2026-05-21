@@ -42,7 +42,7 @@ public class SecurityConfig {
 
                         // Protected APIs
                         .anyRequest().permitAll()
-                ) 
+                ) ;
 
         return http.build();
     }
