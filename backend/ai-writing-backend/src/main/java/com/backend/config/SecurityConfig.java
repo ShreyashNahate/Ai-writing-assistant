@@ -16,13 +16,12 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import java.util.List;
 
-// @Configuration
+@Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
 @RequiredArgsConstructor
 public class SecurityConfig {
-
-    private final FirebaseTokenFilter firebaseTokenFilter;
+ 
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
@@ -42,10 +41,8 @@ public class SecurityConfig {
                         ).permitAll()
 
                         // Protected APIs
-                        .anyRequest().authenticated()
-                )
-                .addFilterBefore(firebaseTokenFilter,
-                        UsernamePasswordAuthenticationFilter.class);
+                        .anyRequest().permitAll()
+                ) 
 
         return http.build();
     }
